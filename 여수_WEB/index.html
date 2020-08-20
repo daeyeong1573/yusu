@@ -2,17 +2,58 @@
 <html lang="ko">
 <head>
     <mata charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&display=swap" rel="stylesheet">
 	<title>여수 전공</title>
+	<style>
+        h1{
+        	color:gray;
+        	border-bottom:5px solid black;
+        	text-shadow: 4px 2px 0 black;
+        	font-size:50px;
+        }
+        ol{
+        	border-right:5px dotted gray;
+            display:grid; 	
+            font-family: 'Bangers', cursive;
+            font-size:30px;
+        }
+       
+       #contain{
+       	display:grid;
+       	grid-template-columns: 200px 400px 400px;
+       	font-size: 59px;
+       }
+      
+       #world{
+       	    font-size:30px;
+       	 font-family: 'Bangers', cursive;
+       }
+       hr{
+       	background-color: blue;
+       }
+      /*body{
+        background: linear-gradient(to left,pink,powderblue );
+      }*/
+      
+	</style>
 </head>
+
+<body id="bodyTag">
+
 <h1> WEB</h1>
-<ol>
-    <li> <a href="html.html">html</a></li>
-    <li><a href="css.html">css</a></li>
-    <li><a href="java.html">javascript</a></li>
-</ol>
+   <input type="button" value="클릭" onclick="document.querySelector('#bodyTag').style.backgroundColor='black';document.querySelector('#bodyTag').style.color='white';">
+  <div id="contain">
 
-<body>
-
+	<ol>
+		<li> <a href="html.html">html</a></li>
+		<li><a href="cssport.html">css</a></li>
+		<li><a href="java.html">javascript</a></li>
+	</ol>
+    <div id="world">
+  <br><br>&nbsp; WEB is World Wide Web.
+    </div>
+  </div>
+  <hr>
 
 
 
